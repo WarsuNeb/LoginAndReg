@@ -7,7 +7,10 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h1>this is my jsp</h1>
-	${user.name }：欢迎回来！
+	<form action="login.do" method="post">
+		用户名：<input type="text" name="username"/>
+		密     码：<input type="password" name="password"/>
+		<input type="submit" value="提交"/>
+	</form>
 </body>
 </html>
