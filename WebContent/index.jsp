@@ -8,6 +8,5 @@
 </head>
 <body>
 	<h1>this is my jsp</h1>
-	${user.name }：欢迎回来！
 </body>
 </html>

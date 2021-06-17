@@ -2,7 +2,7 @@
 <c3p0-config>
 	<named-config name = "test">
 		<property name="driverClass">com.mysql.jdbc.Driver</property>
-		<property name="jdbcUrl">jdbc:mysql://192.168.52.1:3306/user?useUnicode=true&amp;characterEncoding=UTF-8</property>
+		<property name="jdbcUrl">jdbc:mysql://192.168.14.244:3306/user?useUnicode=true&amp;characterEncoding=UTF-8</property>
 		<property name="user">root</property>
 		<property name="password">123456</property>
 		<property name="initialPoolSize">20</property>
